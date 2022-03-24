@@ -223,9 +223,5 @@ pub fn reserve_nft(
       .add_attribute("reserve_address", reserve_address)
       .add_attribute("token_id", token_id))
     
-    
-
-    
-
 
 }

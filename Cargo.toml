@@ -8,6 +8,20 @@ debug-assertions = false
 codegen-units = 1
 incremental = false
 
+[profile.release.package.minting-site]
+opt-level = 3
+debug = false
+debug-assertions = false
+codegen-units = 1
+incremental = false
+
+[profile.release.package.astro-game]
+opt-level = 3
+debug = false
+debug-assertions = false
+codegen-units = 1
+incremental = false
+
 [profile.release]
 rpath = false
 lto = true
