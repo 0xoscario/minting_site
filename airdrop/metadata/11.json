@@ -1,0 +1,46 @@
+{
+    "name": "AH 0011",
+    "faction": "Vandals",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Galaxy"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Metal Boots Purple"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Axe Arm Orange"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Tanker Vandals (Orange)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Jo suit"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Graffity Arm Nude"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "Plasma Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Tanker Vandals. (Orange)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Astronut Helmet White"
+        }
+    ]
+}

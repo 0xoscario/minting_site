@@ -1,0 +1,46 @@
+{
+    "name": "AH 0009",
+    "faction": "Republic",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Terra Planet"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Metal Boots Black"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Sword Arm"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Hunter  Republic (Grey - cyan)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Metal Suit Nude"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Graffity Arm Nude"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "GUNDAM Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Hunter  Republic (Grey - cyan)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Japanese Demon Mask"
+        }
+    ]
+}

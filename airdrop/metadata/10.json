@@ -1,0 +1,42 @@
+{
+    "name": "AH 0010",
+    "faction": "Republic",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Metal BG Blue"
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "LUART boots"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Plasma  Arm Blue"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Tanker Republic (Brown)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Metal Suit Dark Grey"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Cyborg Arm Grey"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "GUNDAM Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Tanker Republic (Brown)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Dart Vader Hemet"
+        }
+    ]
+}

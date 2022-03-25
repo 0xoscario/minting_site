@@ -1,0 +1,50 @@
+{
+  "name": "AH 0001",
+  "faction": "Vandals",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Vandals Planet"
+    },
+    {
+      "trait_type": "ShadowCharacter",
+      "value": ""
+    },
+    {
+      "trait_type": "Shoes",
+      "value": "Metal Boots Purple"
+    },
+    {
+      "trait_type": "Right",
+      "value": "Arm Standard Red"
+    },
+    {
+      "trait_type": "Trunk",
+      "value": "Captain Vandals (Black)"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Gundam Armor Suit"
+    },
+    {
+      "trait_type": "Left",
+      "value": "Arm Purple"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Light machine Gun"
+    },
+    {
+      "trait_type": "Weapon2",
+      "value": "Metal Shield"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Captain Vandals (Black)"
+    },
+    {
+      "trait_type": "HAT",
+      "value": "Gundam Hat"
+    }
+  ]
+}

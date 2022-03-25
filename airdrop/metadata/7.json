@@ -1,0 +1,42 @@
+{
+    "name": "AH 0007",
+    "faction": "Vandals",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Metal BG Purple"
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Metal Boots Cyan"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Arm Standard Black"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Tanker Vandals (Orange)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Metal Suit Black"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Cyborg Arm Grey"
+        },
+        {
+            "trait_type": "Weapon",
+            "value": "Mega Sword"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Tanker Vandals. (Orange)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "HERO Mask"
+        }
+    ]
+}

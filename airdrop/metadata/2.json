@@ -1,0 +1,50 @@
+{
+    "name": "AH 0002",
+    "faction": "Vandals",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Terra Planet"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Astronaut White Shoes"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Arm Standard Purple"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Cyborg Trunk (Orange v2)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Pandora Pink suit"
+        },
+        {
+            "trait_type": "Left",
+            "value": "HERO Cyborg Arm"
+        },
+        {
+            "trait_type": "Weapon",
+            "value": "Cyber Baseball Bat"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "Metal Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Hunter  Vandals (Gold - Black)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Astronut Helmet White"
+        }
+    ]
+}

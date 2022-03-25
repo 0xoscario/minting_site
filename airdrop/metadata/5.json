@@ -1,0 +1,46 @@
+{
+    "name": "AH 0005",
+    "faction": "Republic",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Vandals Planet"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Metal Boots Black"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Rocket Arm Black"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Healer  Republic (Green )"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Iced Out Bull Suit"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Cyborg Arm Grey"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "Plasma Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Healer  Republic (Green)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Astronut Helmet White"
+        }
+    ]
+}

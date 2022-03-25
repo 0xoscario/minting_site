@@ -1,0 +1,50 @@
+{
+    "name": "AH 0006",
+    "faction": "Vandals",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Galaxy"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Naruto boots"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Naruto Arm"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Tanker Vandals (Orange)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Gundam Armor Suit"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Cyborg Arm"
+        },
+        {
+            "trait_type": "Weapon",
+            "value": "HELLCAT Weapon"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "Plasma Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Tanker Vandals. (Orange)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Gundam Hat"
+        }
+    ]
+}

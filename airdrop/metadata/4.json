@@ -1,0 +1,46 @@
+{
+    "name": "AH 0004",
+    "faction": "Republic",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Vandals Planet"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Metal Boots Black"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Healer Arrm green"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Healer  Republic (Green )"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Metal Suit Dark Grey"
+        },
+        {
+            "trait_type": "Left",
+            "value": "Graffity Arm Nude"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "Metal Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Healer  Republic (Green)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Astronut Helmet White"
+        }
+    ]
+}

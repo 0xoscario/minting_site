@@ -1,0 +1,46 @@
+{
+    "name": "AH 0008",
+    "faction": "Republic",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Mother Earth Planet"
+        },
+        {
+            "trait_type": "ShadowCharacter",
+            "value": ""
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Metal Boots Black"
+        },
+        {
+            "trait_type": "Right",
+            "value": "Healer Arrm green"
+        },
+        {
+            "trait_type": "Trunk",
+            "value": "Cyborg Trunk (\bOrange)"
+        },
+        {
+            "trait_type": "Suit",
+            "value": "Pandora Armor Suit"
+        },
+        {
+            "trait_type": "Left",
+            "value": "M LOVE N WAR Arm"
+        },
+        {
+            "trait_type": "Weapon2",
+            "value": "GUNDAM Shield"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Fighter Republic (Cyan)"
+        },
+        {
+            "trait_type": "HAT",
+            "value": "Astronut Helmet White"
+        }
+    ]
+}
