@@ -1,7 +1,7 @@
 [package]
-name = "rest-nft"
+name = "astro-nft"
 version = "0.9.3"
-authors = ["tfive <tfivedev@gmail.com>"]
+authors = [""]
 edition = "2018"
 description = "Extended CW721 NFT with update, burn, freeze, set_minter"
 license = "Apache-2.0"

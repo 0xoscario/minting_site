@@ -2,7 +2,7 @@ use cosmwasm_std::{Deps, DepsMut, Env, MessageInfo, Response, BankMsg, Coin, Cos
 
 use cw721_base::state::TokenInfo;
 use cw721_base::MintMsg;
-use rest_nft::state::{Extension, RestNFTContract};
+use astro_nft::state::{Extension, AstroNFTContract};
 use terraswap::querier::query_balance;
 
 use crate::error::ContractError;
@@ -14,7 +14,7 @@ pub fn execute_burn(
     info: MessageInfo,
     token_id: String,
 ) -> Result<Response, ContractError> {
-    let cw721_contract = RestNFTContract::default();
+    let cw721_contract = AstroNFTContract::default();
 
     let token = cw721_contract.tokens.load(deps.storage, &token_id)?;
     // validate send permissions
@@ -34,7 +34,7 @@ pub fn execute_burn(
 
 // Copied private cw721 check here
 fn _check_can_send<T>(
-    cw721_contract: &RestNFTContract,
+    cw721_contract: &AstroNFTContract,
     deps: Deps,
     env: &Env,
     info: &MessageInfo,
@@ -78,7 +78,7 @@ pub fn execute_update(
     token_uri: Option<String>,
     extension: Extension,
 ) -> Result<Response, ContractError> {
-    let cw721_contract = RestNFTContract::default();
+    let cw721_contract = AstroNFTContract::default();
     let minter = cw721_contract.minter.load(deps.storage)?;
     if info.sender != minter {
         return Err(ContractError::Unauthorized {});
@@ -111,7 +111,7 @@ pub fn execute_freeze(
     _env: Env,
     info: MessageInfo,
 ) -> Result<Response, ContractError> {
-    let cw721_contract = RestNFTContract::default();
+    let cw721_contract = AstroNFTContract::default();
     let minter = cw721_contract.minter.load(deps.storage)?;
     if info.sender != minter {
         return Err(ContractError::Unauthorized {});
@@ -134,7 +134,7 @@ pub fn execute_mint(
     info: MessageInfo,
     mint_msg: MintMsg<Extension>,
 ) -> Result<Response, ContractError> {
-    let cw721_contract = RestNFTContract::default();
+    let cw721_contract = AstroNFTContract::default();
 
     let config = CONFIG.load(deps.storage)?;
     let current_count = cw721_contract.token_count(deps.storage)?;
@@ -153,7 +153,7 @@ pub fn execute_set_minter(
     info: MessageInfo,
     new_minter: String,
 ) -> Result<Response, ContractError> {
-    let cw721_contract = RestNFTContract::default();
+    let cw721_contract = AstroNFTContract::default();
     let minter = cw721_contract.minter.load(deps.storage)?;
     if info.sender != minter {
         return Err(ContractError::Unauthorized {});
@@ -173,7 +173,7 @@ pub fn execute_sweep(
     info: MessageInfo,
     denom: String,
 ) -> Result<Response, ContractError> {
-    let cw721_contract = RestNFTContract::default();
+    let cw721_contract = AstroNFTContract::default();
     let minter = cw721_contract.minter.load(deps.storage)?;
 
     if info.sender != minter {
@@ -192,36 +192,3 @@ pub fn execute_sweep(
         })))
 }
 
-pub fn reserve_nft(
-    deps: DepsMut,
-    _env: Env,
-    info: MessageInfo, 
-    reserve_address: String,
-    token_id: String,
-) -> Result<Response, ContractError> {
-    let _cw721_contract = RestNFTContract::default();
-    let config = CONFIG.load(deps.storage)?;
-
-    //let current_count = cw721_contract.token_count(deps.storage)?;
-    if let Some(coins) = info.funds.first() {
-        if coins.denom != "uusd" || coins.amount < Uint128::from(50000000u128) {
-            return Err(ContractError::Funds {});
-        }
-    } else {
-        return Err(ContractError::Funds {});
-    }
-    if config.reserved_tokens >= i32::from(5555){
-        return Err(ContractError::MaxTokenSupply {})
-    }
-    CONFIG.update(deps.storage, |mut state| -> Result<_, ContractError> {
-        state.reserved_tokens += 1;
-        Ok(state)
-      })?;
-    
-      Ok(Response::new()
-      .add_attribute("action", "reserve_nft")
-      .add_attribute("reserve_address", reserve_address)
-      .add_attribute("token_id", token_id))
-    
-
-}

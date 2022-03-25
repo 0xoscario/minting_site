@@ -26,12 +26,6 @@
     "Metadata": {
       "type": "object",
       "properties": {
-        "animation_url": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
         "attributes": {
           "type": [
             "array",
@@ -41,43 +35,13 @@
             "$ref": "#/definitions/Trait"
           }
         },
-        "background_color": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "external_url": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "image": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "image_data": {
+        "faction": {
           "type": [
             "string",
             "null"
           ]
         },
         "name": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "youtube_url": {
           "type": [
             "string",
             "null"

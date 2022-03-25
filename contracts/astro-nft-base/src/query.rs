@@ -13,7 +13,3 @@ pub fn query_frozen(deps: Deps) -> StdResult<bool> {
     Ok(config.frozen)
 }
 
-pub fn query_reserved(deps: Deps) -> StdResult<i32> {
-    let config = CONFIG.load(deps.storage)?;
-    Ok(config.reserved_tokens)
-}
