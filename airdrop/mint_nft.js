@@ -58,7 +58,7 @@ async function main() {
         let extension = JSON.parse(metadata);
         const mint_msg = {
             "mint": {
-                "owner": "terra1zp7h2vjvqaj37a5ttp9j09dsp6xuudqkfh533h",
+                "owner": wallet.key.accAddress,
                 "token_id": "astro_" + `${i}`,
                 "token_uri": "ipfs::/astrohero_" + `${i}`,
                 "extension": extension
@@ -71,18 +71,6 @@ async function main() {
     
 
     }
-
-    // const query_msg = {
-    //     "nft_info": {
-    //         "token_id": "astro_" + `${i}`,
-    //     }
-    // }
-
-    // let nft_info = await query(query_msg, nft_contract_address);
-    // console.log(nft_info)
-
-
-
 
 }
 
