@@ -77,3 +77,7 @@ async function execute_airdrop(message, contract_address, coin) {
 }
 
 
+
+async function checkBalance() {
+    
+}
