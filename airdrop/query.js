@@ -1,6 +1,6 @@
 
 const { LCDClient, MsgStoreCode, MnemonicKey, isTxError, MsgInstantiateContract, MsgExecuteContract, } = require('@terra-money/terra.js');
-const fs = require('fs')
+const fs = require('fs').promises
 
 require("dotenv").config();
 require('dotenv').config({ path: '../.env' })
@@ -16,33 +16,24 @@ const terra = new LCDClient({
     chainID: 'columbus-5'
 });
 
-
-const mk = new MnemonicKey({
-    mnemonic: mnemonic
-})
-
-
 async function main() {
 
+    let a = []
 
-    for(i = 1; i< 3334; i++) {
-        let token_id = `${i}`;
-        let nft_info = await queryContractInfo(token_id, nft_contract_address);
-        console.log(`Owner of token id ${i} ` + nft_info.owner)
-    }
+    let nft_info = await queryContractInfo(address, nft_contract_address);
 
-   
+   console.log(nft_info)
 
 }
 
 main()
 
-async function queryContractInfo(token_id, contract_address) {
+async function queryContractInfo(address, contract_address) {
     const result = await terra.wasm.contractQuery(
         contract_address,
         {
-            "owner_of": {
-                "token_id" : token_id,
+            "tokens": {
+                "owner" : address,
             }
         }
     )
